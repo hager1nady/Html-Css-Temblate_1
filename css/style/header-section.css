@@ -1,0 +1,108 @@
+.header {
+    padding: 20px;
+    background-color: var(--section-bg-color);
+}
+
+.header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-content .logo {
+    width: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.header .header-content .logo img {
+    width: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: block;
+}
+
+.header .header-content .links {
+    position: relative;
+}
+
+.header .header-content .links:hover .icon span:nth-child(2) {
+    width: 100%;
+}
+
+.header .header-content .links .icon {
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.header .header-content .links .icon span {
+    background-color: #333;
+    margin-bottom: 5px;
+    height: 2.5px;
+}
+
+.header .header-content .links .icon span:first-child {
+    width: 100%;
+}
+
+.header .header-content .links .icon span:nth-child(2) {
+    width: 60%;
+    transition: 0.3s;
+
+}
+
+.header .header-content .links .icon span:last-child {
+    width: 100%;
+}
+
+.header .header-content .links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f6f6f6;
+    position: absolute;
+    right: 0;
+    top: calc(100% + 15px);
+    min-width: 200px;
+    display: none;
+}
+
+.header .header-content .links:hover ul {
+    display: block;
+    z-index: 1;
+}
+
+.header .header-content .links ul::before {
+    content: '';
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #f6f6f6 transparent;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+}
+
+.header .header-content .links ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: #333;
+    transition: 0.3s;
+
+}
+
+.header .header-content .links ul li a:hover {
+    padding-left: 25px;
+}
+
+.header .header-content .links ul li:not(:last-child) a {
+    border-bottom: 1px solid #ddd;
+}

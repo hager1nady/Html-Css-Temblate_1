@@ -1,0 +1,47 @@
+.contact {
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    background-color: var(--section-bg-color);
+}
+
+.contact .container .contact-info {
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    text-align: center;
+}
+
+.contact .container .contact-info .label {
+    font-weight: 800;
+    font-size: 40px;
+    color: var(--second-color);
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+}
+
+.contact .container .contact-info .label::first-letter {
+    text-transform: capitalize;
+}
+
+.contact .container .contact-info .link-contact {
+    display: block;
+    font-size: 40px;
+    font-weight: 800;
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.contact .container .contact-info .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact .container .contact-info .social div {
+    margin-left: 10px;
+    color: var(--second-color);
+}
+
+.contact .container .contact-info .social p {
+    text-transform: capitalize;
+}

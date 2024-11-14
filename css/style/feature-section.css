@@ -1,0 +1,33 @@
+.feature {
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    background-color: var(--section-bg-color);
+}
+
+.feature .container .feat-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.feature .container .feat-content .feat-item {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature .container .feat-content .feat-item .feat-icon {
+    color: var(--main-color);
+    font-size: 1.8rem;
+}
+
+.feature .container .feat-content .feat-item h3 {
+    font-weight: 800;
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+.feature .container .feat-content .feat-item p {
+    line-height: 1.5;
+    color: var(--paragraph-color);
+    font-size: 17px;
+}

@@ -1,0 +1,14 @@
+.footer {
+    color: white;
+    padding: 30px 10px;
+    background-color: var(--second-color);
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+
+}
+
+.footer span {
+    font-weight: bold;
+    color: var(--main-color);
+}

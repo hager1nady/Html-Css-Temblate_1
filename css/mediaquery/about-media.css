@@ -1,0 +1,16 @@
+@media (max-width:991px) {
+    .about .about-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about .about-content .about-text {
+        margin-top: 50px;
+    }
+
+    .about .about-content .about-image::before,
+    .about .about-content .about-image::after {
+        display: none;
+    }
+}

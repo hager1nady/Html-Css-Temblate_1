@@ -1,0 +1,10 @@
+@media (max-width:767px) {
+    .contact .container .contact-info .label {
+        font-size: 20px;
+    }
+
+    .contact .container .contact-info .link-contact {
+        font-size: 20px;
+    }
+
+}

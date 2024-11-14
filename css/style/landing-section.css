@@ -1,0 +1,29 @@
+.landing {
+    background: url(../../images/landing2.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 100px);
+    position: relative;
+}
+
+.landing .intro-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 320px;
+    max-width: 100%;
+}
+
+.landing .intro-text h1 {
+    color: var(--main-color);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.landing .intro-text p {
+    line-height: 1.8;
+    font-size: 19px;
+    color: var(--second-color);
+}

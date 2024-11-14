@@ -1,0 +1,20 @@
+@media (max-width:767px) {
+    .special-heading {
+        font-size: 60px;
+    }
+
+    .special-heading+p {
+        margin-top: -10px;
+    }
+
+    .services .container .services-content .service-item {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width:1199px) {
+    .col-image {
+        display: none;
+    }
+}
